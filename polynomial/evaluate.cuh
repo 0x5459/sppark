@@ -14,6 +14,7 @@
 #endif
 #include <ff/shfl.cuh>
 #include <util/vec2d_t.hpp>
+#include <util/gpu_t.cuh>
 
 template<int N, class fr_t>
 constexpr static int d_evaluate_bsize()
